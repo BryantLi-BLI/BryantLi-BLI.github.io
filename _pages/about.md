@@ -7,31 +7,30 @@ redirect_from:
   - /about.html
 ---
 
-<img src="/images/amorphous_voronoi.png" alt="Research banner" style="width:100%;border-radius:8px;margin-bottom:1.5em;">
+<img src="/images/amorphous_voronoi.png" alt="Research banner" style="width:70%;max-width:800px;display:block;margin:0 auto 1.5em;border-radius:8px;">
 
 ## Hi, I'm Bryant
 
-I'm a Ph.D. candidate in Materials Science and Engineering at the **University of California, Berkeley**,
-advised by [Prof. Kristin A. Persson](https://perssongroup.lbl.gov) at **Lawrence Berkeley National Laboratory**.
-My work sits at the intersection of **computational materials science** and **machine learning** —
-specifically, building atomistic models that reveal how solid-state battery interfaces form and degrade.
+I'm a Ph.D. candidate in Materials Science and Engineering at **UC Berkeley**, working with [Prof. Kristin Persson](https://perssongroup.lbl.gov) at **Lawrence Berkeley National Laboratory**. I develop **machine-learned interatomic potentials** to simulate million-atom reactive interfaces in solid-state batteries—work that would take millions of CPU-hours with traditional methods.
+
+My research has uncovered hidden SEI morphologies invisible to experimental characterization, explained passivation mechanisms through electronic structure analysis, and contributed to open-source tools used by 50+ researchers worldwide.
 
 ---
 
-## Research Interests
+## Research Highlights
 
 <div style="display:flex;gap:1.2em;flex-wrap:wrap;margin-bottom:1em;">
-  <div style="flex:1;min-width:200px;background:#f5f5f5;padding:1em;border-radius:8px;">
-    <strong>⚡ Solid-State Batteries</strong><br>
-    SEI formation, Li/Na anode interfaces, electrolyte decomposition mechanisms
+  <div style="flex:1;min-width:220px;background:#f5f5f5;padding:1em;border-radius:8px;">
+    <strong>Million-Atom Simulations</strong><br>
+    1M atom, 10 ns reactive MD using bespoke ACE potentials—equivalent to millions of CPU-hours of AIMD
   </div>
-  <div style="flex:1;min-width:200px;background:#f5f5f5;padding:1em;border-radius:8px;">
-    <strong>🤖 Machine-Learned Potentials</strong><br>
-    Training & benchmarking MACE, NequIP, CHGNet, M3GNet for reactive MD
+  <div style="flex:1;min-width:220px;background:#f5f5f5;padding:1em;border-radius:8px;">
+    <strong>Hidden SEI Discovery</strong><br>
+    Revealed 4-layer heterogeneous interphase morphology invisible to XPS/SEM characterization
   </div>
-  <div style="flex:1;min-width:200px;background:#f5f5f5;padding:1em;border-radius:8px;">
-    <strong>🔬 Materials Informatics</strong><br>
-    High-throughput DFT workflows, R2SCAN dataset, Materials Project contributions
+  <div style="flex:1;min-width:220px;background:#f5f5f5;padding:1em;border-radius:8px;">
+    <strong>Open-Source Impact</strong><br>
+    Core contributor to atomate2/MPMorph; 15k entries to Materials Project R2SCAN database
   </div>
 </div>
 
@@ -39,49 +38,60 @@ specifically, building atomistic models that reveal how solid-state battery inte
 
 ## Current Projects
 
-| Project | Description |
-|---------|-------------|
-| **SEI Atomistic Modeling** | Large-scale MLIP-driven MD of SEI growth at solid electrolyte interfaces |
-| **R2SCAN Dataset** | Expanding the Materials Project with 150,000+ r²SCAN entries |
-| **MPMorph / Atomate2** | Automated amorphous & non-equilibrium structure generation workflows |
-| **Na-Solid Interface ML** | ML-aided prediction of sodium anode–electrolyte interface properties |
+| Project | Impact |
+|---------|--------|
+| **SEI Atomistic Modeling** | First atomic-scale view of Li₇P₃S₁₁ interphase formation kinetics |
+| **Active Learning for Reactivity** | Outperforms generative models (MatterGen, ChgGEN) for discovering reaction intermediates |
+| **MPMorph / Atomate2** | Automated amorphous structure workflows adopted by 50+ researchers |
+| **Na-Solid Interface ML** | Distinguishing passivating SEI from conductive MCI via ionic mobility analysis |
 
 ---
 
 ## Research Visualizations
 
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1.5em;margin-bottom:1.5em;">
-  <div style="text-align:center;">
-    <img src="/images/amorphous_voronoi_optimized.gif" alt="Amorphous Voronoi" style="width:100%;border-radius:8px;">
-    <p><em>Glassy structure Voronoi analysis</em></p>
-  </div>
-  <div style="text-align:center;">
-    <img src="/images/amorph_itf_optimized.gif" alt="Amorphous Interface" style="width:100%;border-radius:8px;">
+<!-- Row 1: Portrait images (tall aspect ratio) -->
+<div style="display:flex;gap:1.5em;justify-content:center;align-items:flex-start;flex-wrap:wrap;margin-bottom:1.5em;">
+  <div style="text-align:center;flex:0 1 280px;">
+    <img src="/images/amorph_itf_optimized.gif" alt="Amorphous Interface" style="width:100%;max-height:400px;object-fit:contain;border-radius:8px;">
     <p><em>Amorphous interphase passivation evolution</em></p>
   </div>
-  <div style="text-align:center;">
-    <img src="/images/screen_recording_optimized.gif" alt="Screen Recording" style="width:100%;border-radius:8px;">
-    <p><em>Amorphous void visualization for ionic transport</em></p>
+  <div style="text-align:center;flex:0 1 280px;">
+    <img src="/images/lps_hd_smol_growth%20copy.png" alt="LPS Growth" style="width:100%;max-height:400px;object-fit:contain;border-radius:8px;">
+    <p><em>Li₇P₃S₁₁ 1M atom 10 ns growth simulation</em></p>
   </div>
 </div>
 
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1.5em;margin-bottom:1.5em;">
-  <div style="text-align:center;">
-    <img src="/images/methodology.png" alt="MLIP Training Methodology" style="width:100%;border-radius:8px;">
-    <p><em>Training dataset architecture for reactivity MLIPs</em></p>
+<!-- Row 2: Square-ish images -->
+<div style="display:flex;gap:1.5em;justify-content:center;align-items:flex-start;flex-wrap:wrap;margin-bottom:1.5em;">
+  <div style="text-align:center;flex:0 1 320px;">
+    <img src="/images/amorphous_voronoi_optimized.gif" alt="Amorphous Voronoi" style="width:100%;border-radius:8px;">
+    <p><em>Glassy structure Voronoi analysis</em></p>
   </div>
-  <div style="text-align:center;">
+  <div style="text-align:center;flex:0 1 320px;">
     <img src="/images/onsager_transport_coeffs.png" alt="Onsager Transport Coefficients" style="width:100%;border-radius:8px;">
     <p><em>Correlated transport kinetics to decode morphology</em></p>
   </div>
 </div>
 
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1.5em;margin-bottom:1.5em;">
-  <div style="text-align:center;">
-    <img src="/images/lps_hd_smol_growth%20copy.png" alt="LPS Growth" style="width:100%;border-radius:8px;">
-    <p><em>Li₇P₃S₁₁ 1M atom 10 ns growth simulation</em></p>
+<!-- Row 3: Methodology figure (wide) -->
+<div style="display:flex;justify-content:center;margin-bottom:1.5em;">
+  <div style="text-align:center;max-width:700px;">
+    <img src="/images/methodology.png" alt="MLIP Training Methodology" style="width:100%;border-radius:8px;">
+    <p><em>Training dataset architecture for reactivity MLIPs</em></p>
   </div>
-  <div style="text-align:center;">
+</div>
+
+<!-- Row 4: Screen recording -->
+<div style="display:flex;justify-content:center;margin-bottom:1.5em;">
+  <div style="text-align:center;max-width:500px;">
+    <img src="/images/screen_recording_optimized.gif" alt="Screen Recording" style="width:100%;border-radius:8px;">
+    <p><em>Amorphous void visualization for ionic transport</em></p>
+  </div>
+</div>
+
+<!-- Row 4: Wide landscape -->
+<div style="display:flex;justify-content:center;margin-bottom:1.5em;">
+  <div style="text-align:center;max-width:600px;">
     <img src="/images/perspective_figure_temp.001.png" alt="Perspective Figure" style="width:100%;border-radius:8px;">
     <p><em>Solid state reactivity kinetics</em></p>
   </div>
@@ -92,28 +102,30 @@ specifically, building atomistic models that reveal how solid-state battery inte
 ## News
 
 - **Feb 2026** — Paper submitted: *Atomistic Understanding of SEI via MLIPs* (arXiv preprint)
-- **Dec 2025** — New paper: *Role of MLIPs in Solid-State Batteries*
-- **Apr 2025** — Talk at MRS Spring Meeting on SEI formation
-- **Jan 2025** — Paper published: *Atomate2 Modular Workflows*
+- **Nov 2025** — UCB MSE Corrosion Award for ML framework development
+- **Dec 2025** — Review paper: *Role of MLIPs in Solid-State Batteries*
+- **May 2025** — Paper accepted in J. Phys. Chem. C: SEI formation in Li/Li₇P₃S₁₁
+- **Apr 2025** — Oral presentation at MRS Spring Meeting, Seattle
+- **Jan 2025** — Paper published: *Atomate2 Modular Workflows* in Digital Discovery
 
 ---
 
 ## Background
 
-<div style="display:flex;gap:1.5em;align-items:flex-start;flex-wrap:wrap;">
-  <img src="/images/ucb_logo.png" alt="UC Berkeley" style="height:60px;margin-top:0.3em;">
-  <div>
-    <strong>Ph.D. / M.S. — UC Berkeley</strong> (2020–present)<br>
+<div style="display:flex;gap:2em;align-items:center;flex-wrap:wrap;margin-bottom:1em;">
+  <img src="/images/ucb_logo.png" alt="UC Berkeley" style="width:70px;height:auto;">
+  <div style="flex:1;min-width:250px;">
+    <strong>Ph.D. / M.S. — UC Berkeley</strong> (2021–present)<br>
     Materials Science & Engineering · Graduate Certificate in Applied Data Science<br>
     Advisor: Prof. Kristin A. Persson, Lawrence Berkeley National Laboratory
   </div>
 </div>
 
-<div style="display:flex;gap:1.5em;align-items:flex-start;flex-wrap:wrap;margin-top:1em;">
-  <img src="/images/psu_logo.png" alt="Penn State" style="height:60px;margin-top:0.3em;">
-  <div>
-    <strong>B.S. — Penn State University</strong> (2016–2020)<br>
+<div style="display:flex;gap:2em;align-items:center;flex-wrap:wrap;">
+  <img src="/images/psu_logo.png" alt="Penn State" style="width:70px;height:auto;">
+  <div style="flex:1;min-width:250px;">
+    <strong>B.S. — Penn State University</strong> (2017–2021)<br>
     Materials Science & Engineering, <em>magna cum laude</em> (GPA 3.87) · Minor in Applied Mathematics<br>
-    Dabo Group (Pt–Pd electrocatalysts, DFT + cluster expansion) · Lemke Group at HKU (Fe–Ni catalytic NH₃ synthesis)
+    Dabo Group (Pt–Pd electrocatalysts, DFT + cluster expansion)
   </div>
 </div>
