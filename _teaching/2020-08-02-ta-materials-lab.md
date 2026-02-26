@@ -3,7 +3,7 @@ title: "Teaching Assistant — Introduction to Materials Laboratory"
 collection: teaching
 type: "Laboratory Course"
 permalink: /teaching/2020-08-02-ta-materials-lab
-venue: "Department of Materials Science and Engineering, Pennsylvania State University"
+venue: "Department of Materials Science and Engineering, The Pennsylvania State University"
 date: 2020-08-02
 location: "University Park, PA"
 ---

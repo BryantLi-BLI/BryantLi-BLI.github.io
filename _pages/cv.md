@@ -19,7 +19,7 @@ redirect_from:
 **University of California, Berkeley** &emsp;&emsp; M.S. Materials Science & Engineering *(Dec 2023)*
 - GPA: 3.80, Graduate Certificate in Applied Data Science
 
-**Pennsylvania State University** &emsp;&emsp; B.S. Materials Science & Engineering *(May 2021)*
+**The Pennsylvania State University** &emsp;&emsp; B.S. Materials Science & Engineering *(May 2021)*
 - *Magna cum laude*, GPA: 3.87, Minor: Applied Mathematics, Dean's List (all semesters)
 
 ---
@@ -60,7 +60,7 @@ redirect_from:
 ---
 
 ### Undergraduate Research Assistant, Dabo Group
-*Pennsylvania State University* &emsp;&emsp; Sept 2018 – May 2021
+*The Pennsylvania State University* &emsp;&emsp; Sept 2018 – May 2021
 
 - Executed 1000+ DFT calculations (Quantum ESPRESSO) to model surface adsorption and charge transfer kinetics for Pt–Pd nanoparticle electrocatalysts (DOE-funded)
 - Developed cluster basis sets with ICET for cluster expansion; performed Monte Carlo simulations to predict surface morphology

@@ -3,7 +3,7 @@ title: "Mathematics Tutor (100–200 Level)"
 collection: teaching
 type: "Tutoring"
 permalink: /teaching/2020-08-01-math-tutor
-venue: "Penn State Learning, Pennsylvania State University"
+venue: "Penn State Learning, The Pennsylvania State University"
 date: 2020-08-01
 location: "University Park, PA"
 ---
