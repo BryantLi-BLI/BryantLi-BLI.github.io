@@ -9,8 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-<a href="/files/Bryant_Li_CV.pdf" class="btn btn--primary" style="margin-bottom:1em;">Download Full CV (PDF)</a>
-
 ## Education
 
 **University of California, Berkeley** &emsp;&emsp; Ph.D. Materials Science & Engineering *(Aug 2021 – May 2026)*
