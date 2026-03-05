@@ -45,7 +45,6 @@ redirect_from:
 
 **Active Learning Framework**
 - Developed pipeline combining structural generation with MaxVol and DIRECT sampling
-- Outperformed generative models (MatterGen, ChgGEN) for discovering interface reactivity intermediates
 
 **High-Throughput Data Analytics**
 - Managed scalable data pipelines across 3 MongoDB databases (50k+ entries each)
